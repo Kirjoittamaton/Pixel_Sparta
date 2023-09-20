@@ -187,7 +187,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f728deb16b1cd4941810a0f4edae119e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   speed: 4
+=======
+  speed: 3
+>>>>>>> 13845e60363dccb77636893e0815dc8b5367b074
   horizontal: 0
   jumpPower: 300
   rb: {fileID: 3708566358698323193}
@@ -249,7 +253,19 @@ MonoBehaviour:
     m_ActionId: 5c2d1d85-7114-4e92-bcf9-986944a05998
     m_ActionName: Player/Jump[/Keyboard/space]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5864498358916175453}
+        m_TargetAssemblyTypeName: playerController, Assembly-CSharp
+        m_MethodName: Hit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: a9e446bd-51fc-45ec-975a-f543b44c86d6
     m_ActionName: Player/Attack[/Mouse/leftButton]
   - m_PersistentCalls:
