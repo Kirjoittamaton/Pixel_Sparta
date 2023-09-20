@@ -14,6 +14,7 @@ public class playerController : MonoBehaviour
     public bool facingRight = true;
     public bool facingLeft = false;
     public float brakeJump = 1f;
+    public Animator playerAnim;
     
     [Header("GroundCheck")]
     public float groundCheckRadius = 0.1f;
@@ -36,7 +37,9 @@ public class playerController : MonoBehaviour
     public void Start()
     {
         jumpBufferOn = false;
-
+        rb = GetComponent<Rigidbody2D>();
+        playerAnim = GetComponentInChildren<Animator>();
+        groundCheck = GameObject.Find("GroundCheck").transform;
     }
 
     public bool isGrounded()
@@ -99,10 +102,12 @@ public class playerController : MonoBehaviour
         if (context.performed)
         {
             //Walk();
+            playerAnim.SetBool("isWalking", true);
         }
 
         if (context.canceled)
         {
+            playerAnim.SetBool("isWalking", false);
 
             //Idle();
         }

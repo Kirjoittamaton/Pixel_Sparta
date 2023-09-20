@@ -191,7 +191,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": ">Select",
+                    "name": "Select",
                     "type": "Button",
                     "id": "f1271900-3f4b-49c1-aec4-8eb5a8c38286",
                     "expectedControlType": "Button",
@@ -239,7 +239,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": ">Select",
+                    "action": "Select",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -250,7 +250,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": ">Select",
+                    "action": "Select",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
