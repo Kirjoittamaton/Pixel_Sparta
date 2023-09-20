@@ -59,7 +59,7 @@ public class playerController : MonoBehaviour
             //StartCoroutine("onLadders");
             jumpBufferTimer = jumpBuffer;
             jumpBufferOn = false;
-
+            playerAnim.SetBool("isJumping", true);
         }
 
 
@@ -84,7 +84,7 @@ public class playerController : MonoBehaviour
             jumpBuffer -= Time.deltaTime;
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.4f);
             coyoteTimer = 0f;
-
+            playerAnim.SetBool("isJumping", false);
         }
 
 
@@ -122,7 +122,24 @@ public class playerController : MonoBehaviour
         {
             if(context.performed)
             {
+                playerAnim.SetBool("isHitting", true);
+            }
 
+            if(context.canceled)
+            {
+                playerAnim.SetBool("isHitting", false);
+            }
+        }
+        if (!isGrounded())
+        {
+            if (context.performed)
+            {
+                playerAnim.SetBool("isHitting", true);
+            }
+
+            if (context.canceled)
+            {
+                playerAnim.SetBool("isHitting", false);
             }
         }
     }
