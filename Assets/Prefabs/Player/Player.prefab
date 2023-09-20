@@ -187,13 +187,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f728deb16b1cd4941810a0f4edae119e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 4
   horizontal: 0
   jumpPower: 300
   rb: {fileID: 3708566358698323193}
   facingRight: 1
   facingLeft: 0
   brakeJump: 1
+  playerAnim: {fileID: 0}
   groundCheckRadius: 1
   groundLayer:
     serializedVersion: 2
