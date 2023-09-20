@@ -109,6 +109,18 @@ public class playerController : MonoBehaviour
 
     }
 
+    public void Hit(InputAction.CallbackContext context)
+    {
+
+
+        if (isGrounded())
+        {
+            if(context.performed)
+            {
+
+            }
+        }
+    }
     public void Flip()
     {
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
