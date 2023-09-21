@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7890955849278680165}
   - component: {fileID: 4868022264511896615}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor2_Highres2_Dark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 2765730463832886075}
   - component: {fileID: 4840147608890863097}
   - component: {fileID: 5335580806638702193}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: House_Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}

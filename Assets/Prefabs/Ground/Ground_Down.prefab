@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8812775644617533415}
   - component: {fileID: 3034488448262489506}
   - component: {fileID: 129883217288471704}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground_Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4671588702512590372}
   - component: {fileID: 5552048059785388723}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground1_Highres (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3140117108735781910}
   - component: {fileID: 664654020478489761}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground1_Highres (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -309,7 +309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 492410986280598909}
   - component: {fileID: 4568904513041538948}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground1_Highres (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -393,7 +393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1321287452890539590}
   - component: {fileID: 622827642949305758}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor2_Highres2_Below_Ground (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -481,7 +481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3318341832019676026}
   - component: {fileID: 6610844130002861025}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground1_Highres
   m_TagString: Untagged
   m_Icon: {fileID: 0}

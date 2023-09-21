@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1294595797813361063}
   - component: {fileID: 9153848839628220908}
   - component: {fileID: 1609277282241688453}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Props_Pack2_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3088300314845814996}
   - component: {fileID: 1327798436484522545}
   - component: {fileID: 8003816144307114838}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pixel_Tile1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 6002933741914169778}
   - component: {fileID: 7598264402854665118}
   - component: {fileID: 4030405010487728894}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pixel_Tile1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
