@@ -15,7 +15,7 @@ public class playerController : MonoBehaviour
     public bool facingLeft = false;
     public float brakeJump = 1f;
     public Animator playerAnim;
-    
+
     [Header("GroundCheck")]
     public float groundCheckRadius = 0.1f;
     public LayerMask groundLayer;
@@ -54,7 +54,7 @@ public class playerController : MonoBehaviour
     {
         if (context.performed && coyoteTimer > 0f)
         {
-           // playerStart.position = transform.position;
+            // playerStart.position = transform.position;
             rb.AddForce(Vector2.up * jumpPower);
             //StartCoroutine("onLadders");
             jumpBufferTimer = jumpBuffer;
@@ -120,12 +120,12 @@ public class playerController : MonoBehaviour
 
         if (isGrounded())
         {
-            if(context.performed)
+            if (context.performed)
             {
                 playerAnim.SetBool("isHitting", true);
             }
 
-            if(context.canceled)
+            if (context.canceled)
             {
                 playerAnim.SetBool("isHitting", false);
             }
@@ -149,8 +149,8 @@ public class playerController : MonoBehaviour
         facingRight = !facingRight;
     }
 
-   public void Update()
-   {
+    public void Update()
+    {
         transform.Translate(Vector2.right * horizontal * speed * Time.deltaTime);
 
 
@@ -197,7 +197,7 @@ public class playerController : MonoBehaviour
         else
         {
             coyoteTimer -= Time.deltaTime;
-           // anim.SetBool("isGrounded", false);
+            // anim.SetBool("isGrounded", false);
         }
 
         if (vertical < -0.1f && onJumpTPlatformCheck)
@@ -214,7 +214,7 @@ public class playerController : MonoBehaviour
             //activeJTPlatform = collision.gameObject;
         }
     }
-        public IEnumerator dropTPlatform()
+    public IEnumerator dropTPlatform()
     {
         activeJTPlatform.GetComponent<Collider2D>().enabled = false;
         yield return new WaitForSeconds(0.3f);
