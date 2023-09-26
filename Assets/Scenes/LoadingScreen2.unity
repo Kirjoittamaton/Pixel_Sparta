@@ -831,7 +831,7 @@ MonoBehaviour:
   softnessText: {fileID: 309460806}
   softnessChangeDuration: 3
   targetSoftness: 1
-  nextSceneName: Level0_Tutorial
+  nextSceneName: Level1_SpartanFarm
 --- !u!1 &828643291
 GameObject:
   m_ObjectHideFlags: 0
