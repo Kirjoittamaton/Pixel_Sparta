@@ -14,9 +14,15 @@ public class playerHealth : MonoBehaviour
     public HealthSlider healthSlider;
     public GameObject enemy;
     public GameObject player;
+    public GameObject hitBox;
     // Start is called before the first frame update
     void Start()
     {
+        hitBox = GameObject.Find("hitBox").gameObject;
+        healthSlider = Slider.FindAnyObjectByType<HealthSlider>();
+        enemy = GameObject.FindWithTag("Enemy1");
+        player = GameObject.FindWithTag("Player");
+        //hitBox.SetActive(false);
         currentHealth = maxHealth;
         healthSlider.SetMaxHealth(maxHealth);
 
@@ -56,23 +62,31 @@ public class playerHealth : MonoBehaviour
 
 
 
-
-        if (other.tag == "Enemy1")
+        if (hitBox.activeSelf)
         {
-            TakeDamage(damage);
+            if (other.tag == "Enemy1")
+            {
+               //TakeDamage(damage);
 
-        }
+            }
 
-        if (other.tag == "Enemy2")
-        {
-            TakeDamage(damage);
+            if (other.tag == "EnemyWeapon")
+            {
+                TakeDamage(damage);
 
-        }
+            }
 
-        if (other.tag == "Enemy3")
-        {
-            TakeDamage(damage);
+            if (other.tag == "Enemy2")
+            {
+                TakeDamage(damage);
 
+            }
+
+            if (other.tag == "Enemy3")
+            {
+                TakeDamage(damage);
+
+            }
         }
 
     }

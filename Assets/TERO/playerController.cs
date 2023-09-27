@@ -15,6 +15,7 @@ public class playerController : MonoBehaviour
     public bool facingLeft = false;
     public float brakeJump = 1f;
     public Animator playerAnim;
+    public playerHealth playerHealth;
 
     [Header("GroundCheck")]
     public float groundCheckRadius = 0.1f;
@@ -40,6 +41,8 @@ public class playerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerAnim = GetComponentInChildren<Animator>();
         groundCheck = GameObject.Find("GroundCheck").transform;
+        playerHealth = GetComponent<playerHealth>();
+        playerHealth.hitBox.GetComponent<BoxCollider2D>().enabled = false;
     }
 
     public bool isGrounded()
@@ -123,11 +126,15 @@ public class playerController : MonoBehaviour
             if (context.performed)
             {
                 playerAnim.SetBool("isHitting", true);
+                //playerHealth.hitBox.SetActive(true);
+                playerHealth.hitBox.GetComponent<BoxCollider2D>().enabled = true;
             }
 
             if (context.canceled)
             {
                 playerAnim.SetBool("isHitting", false);
+                //playerHealth.hitBox.SetActive(false);
+                playerHealth.hitBox.GetComponent<BoxCollider2D>().enabled = false;
             }
         }
         if (!isGrounded())
