@@ -55,6 +55,7 @@ public class playerController : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext context)
     {
+        /*
         if (context.performed && coyoteTimer > 0f)
         {
             // playerStart.position = transform.position;
@@ -64,24 +65,45 @@ public class playerController : MonoBehaviour
             jumpBufferOn = false;
             playerAnim.SetBool("isJumping", true);
         }
+        */
 
+            if (context.performed && coyoteTimer > 0f)
+            {
+                // playerStart.position = transform.position;
+                rb.AddForce(Vector2.up * jumpPower);
+                //StartCoroutine("onLadders");
+                jumpBufferTimer = jumpBuffer;
+                jumpBufferOn = false;
+                playerAnim.SetBool("isJumping", true);
+            }
+        
 
+            if (context.canceled && coyoteTimer > 0f)
+            {
+                jumpBuffer -= Time.deltaTime;
+                rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.4f);
+                coyoteTimer = 0f;
+                playerAnim.SetBool("isJumping", false);
+                
+            }
+        
+        
         /*
         if (context.performed )
         {
             jumpBufferTimer = jumpBuffer;
         }
-        
+
         else if(context.performed && climbing)
         {
-            
+
             rb.AddForce(Vector2.up * jumpPower);
             //cC.ScreenShake(3f,0.2f,4f);
             StartCoroutine("onLadders");
         }
         */
 
-
+        /*
         if (context.canceled && rb.velocity.y > 0f)
         {
             jumpBuffer -= Time.deltaTime;
@@ -90,7 +112,7 @@ public class playerController : MonoBehaviour
             playerAnim.SetBool("isJumping", false);
         }
 
-
+        */
 
     }
 
