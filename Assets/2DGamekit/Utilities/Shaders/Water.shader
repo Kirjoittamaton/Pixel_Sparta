@@ -1,4 +1,4 @@
-﻿Shader "Water2D"
+﻿§Shader "Water2D"
 {
 	Properties
 	{

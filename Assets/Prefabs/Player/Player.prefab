@@ -195,10 +195,11 @@ MonoBehaviour:
   facingLeft: 0
   brakeJump: 1
   playerAnim: {fileID: 0}
+  playerHealth: {fileID: 0}
   groundCheckRadius: 1
   groundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   groundCheck: {fileID: 4315249948041104899}
   jumpBuffer: 0.5
   jumpBufferTimer: 0
@@ -219,7 +220,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 3fa9b866fa5399545b12ce45acce684b, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: 3fa9b866fa5399545b12ce45acce684b,
+    type: 3}
   m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:

@@ -1,16 +1,34 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Scene_Change_Level : MonoBehaviour
 {
-    public string sceneToLoad;
+    public float delayInSeconds = 20f; // The delay in seconds before changing scenes
+    public string sceneToLoad = "Level3"; // The name of the scene to load (make sure it's in the build settings)
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private float timer = 0f;
+    private bool hasSceneLoaded = false;
+
+    void Update()
     {
-        if (other.CompareTag("Player"))
+        // Increment the timer
+        timer += Time.deltaTime;
+
+        // Check if the delay has been reached and the scene hasn't been loaded yet
+        if (timer >= delayInSeconds && !hasSceneLoaded)
         {
+            // Load the specified scene
+            SceneManager.LoadScene(sceneToLoad);
+            hasSceneLoaded = true; // Set a flag to ensure the scene is loaded only once
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Check if the collision involves the player
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            // Load the specified scene
             SceneManager.LoadScene(sceneToLoad);
         }
     }
