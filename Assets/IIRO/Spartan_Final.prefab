@@ -663,6 +663,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2147549184
   groundedRaycastDistance: 0.1
+  groundedRaycastDistanceSerialized: 0.1
+  ceilingRaycastDistanceSerialized: 0.1
 --- !u!114 &8711642028453890390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -778,7 +780,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: 
-        m_MethodName: ChangeHitPointUI
+        m_MethodName: 
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
