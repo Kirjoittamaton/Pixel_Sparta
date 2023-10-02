@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        titleMusic.volume = 0.5f;
     }
 
     // Update is called once per frame
@@ -62,7 +62,9 @@ public class GameManager : MonoBehaviour
 
     public void SetVolume(float volume)
     {
+        titleMusic.volume = volume * 0.02f;
         mainMixer.SetFloat("volume", volume);
+        print("volumen säätö");
 
     }
     public void SetFullscreen(bool isFullscreen)
