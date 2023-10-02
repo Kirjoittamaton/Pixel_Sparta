@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5580c8d1af235cd489338966c90e932a
+guid: b3d51d886acf2be4d825aa73bb455340
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spear_0
+      name: skull1_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 8
-        width: 21
-        height: 68
+        x: 4
+        y: 4
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,8 +137,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c30c5351edd2012429c951831925e782
-      internalID: -662914743
+      spriteID: 0e6e6cb289008754ea6e9248b1094614
+      internalID: -1088759131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skull1_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b94b4c2d9f4f104894e6c8130aecafb
+      internalID: -1998450277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skull1_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2aeaa4ffbcd7cb4ba8876ba9a146f9c
+      internalID: -412018173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skull1_3
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2e70c6c6ce2f44ab56f256ca15aaae
+      internalID: -803350517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skull1_4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c44dcdb7a3178e44b1d2ccc8c7d736d
+      internalID: -996666992
       vertices: []
       indices: 
       edges: []
@@ -154,7 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spear_0: -662914743
+      skull1_0: -1088759131
+      skull1_1: -1998450277
+      skull1_2: -412018173
+      skull1_3: -803350517
+      skull1_4: -996666992
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

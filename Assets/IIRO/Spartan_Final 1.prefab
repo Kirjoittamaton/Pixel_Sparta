@@ -107,7 +107,7 @@ Transform:
   m_GameObject: {fileID: 781134657797264790}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.155, y: 1.543, z: 0}
+  m_LocalPosition: {x: -0.78, y: 0.373, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -138,7 +138,7 @@ Transform:
   m_GameObject: {fileID: 837959686483234594}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.155, y: 1.543, z: 0}
+  m_LocalPosition: {x: 0.78, y: 0.373, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1281,8 +1281,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.11}
-  m_Size: {x: 0.5, y: 2}
+  m_Offset: {x: 0, y: -0.09691113}
+  m_Size: {x: 0.5, y: 1.9738226}
   m_Direction: 0
 --- !u!50 &7107908062726582451
 Rigidbody2D:
@@ -1411,8 +1411,8 @@ MonoBehaviour:
   hurtAudioPlayer: {fileID: 5840695193069114140}
   meleeAttackAudioPlayer: {fileID: 2176852425281638220}
   rangedAttackAudioPlayer: {fileID: 1231437657849734238}
-  shotsPerSecond: 2
-  bulletSpeed: 30
+  shotsPerSecond: 0.5
+  bulletSpeed: 10
   holdingGunTimeoutDuration: 1.5
   rightBulletSpawnPointAnimated: 1
   cameraHorizontalFacingOffset: 2
@@ -1503,8 +1503,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  offset: {x: 1.0239878, y: -0.029238582}
-  size: {x: 1.5479755, y: 2.1075947}
+  offset: {x: 0.93983674, y: 0.2753105}
+  size: {x: 1.379673, y: 0.68102306}
   offsetBasedOnSpriteFacing: 1
   spriteRenderer: {fileID: 5596255662407073804}
   canHitTriggers: 0

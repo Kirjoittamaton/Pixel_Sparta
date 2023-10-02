@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5580c8d1af235cd489338966c90e932a
+guid: 9b87066ede7cb2448b942bc0b346bce9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,22 +123,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spear_0
+      name: sparta-attack_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 8
-        width: 21
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 22
+        y: 66
+        width: 81
+        height: 66
+      alignment: 9
+      pivot: {x: 0.2218653, y: 0.4919993}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c30c5351edd2012429c951831925e782
-      internalID: -662914743
+      spriteID: 908ea224f3de07f4b819b395b599726d
+      internalID: 460467950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparta-attack_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 66
+        width: 81
+        height: 66
+      alignment: 9
+      pivot: {x: 0.2344351, y: 0.49102458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df2cfd3f29c4394082001887a4a8ff3
+      internalID: 1350604573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparta-attack_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 81
+        height: 66
+      alignment: 9
+      pivot: {x: 0.22239873, y: 0.49121082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31637148a1ffdb0408c7c556247c804f
+      internalID: 300000823
       vertices: []
       indices: 
       edges: []
@@ -154,7 +196,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spear_0: -662914743
+      sparta-attack_0: 460467950
+      sparta-attack_1: 1350604573
+      sparta-attack_2: 300000823
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
