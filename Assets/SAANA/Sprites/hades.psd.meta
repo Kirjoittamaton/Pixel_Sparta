@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8f9dd4f0db5b6d9499f7287246601edd
+guid: 3bb9f7499b6c7944181974b74c16e5e3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,127 +123,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ghost_6
+      name: hades_0
       rect:
         serializedVersion: 2
-        x: 77
-        y: 4
-        width: 77
-        height: 77
+        x: 71
+        y: 104
+        width: 76
+        height: 95
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0f17b70472ddde478393d6a8287639f
-      internalID: 1249165808
+      spriteID: 930dcf1242880334a8606eea58c9f62f
+      internalID: -1292872546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost_7
+      name: hades_1
       rect:
         serializedVersion: 2
-        x: 157
-        y: 4
-        width: 77
-        height: 77
+        x: 147
+        y: 104
+        width: 76
+        height: 95
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c9f0a3fef0687148a1435aa14395ea0
-      internalID: -1045731490
+      spriteID: fce11ba4067bf1d409885bd052580118
+      internalID: 1380709774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost_8
+      name: hades_2
       rect:
         serializedVersion: 2
-        x: 237
-        y: 4
-        width: 77
-        height: 77
+        x: 223
+        y: 104
+        width: 76
+        height: 95
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a83e5cdd93cc1348a50aa5dce24b304
-      internalID: -1349090017
+      spriteID: d2d5069b3bc808849b735c119a8b4f4a
+      internalID: 463535910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ghost_9
+      name: hades_3
       rect:
         serializedVersion: 2
-        x: 317
-        y: 4
-        width: 77
-        height: 77
+        x: 299
+        y: 104
+        width: 76
+        height: 95
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a4bcd773fa266d43a07d2ee35c1b361
-      internalID: 1593722098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ghost_10
-      rect:
-        serializedVersion: 2
-        x: 397
-        y: 4
-        width: 77
-        height: 77
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 609e2a5944490274cbd577949176aad8
-      internalID: 857185087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ghost_11
-      rect:
-        serializedVersion: 2
-        x: 477
-        y: 4
-        width: 77
-        height: 77
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b17b62d303b42d048ad2c6aefcbbe3c7
-      internalID: -1105706304
+      spriteID: 827bd224cc3f795418cd6ce08281102d
+      internalID: 1581667929
       vertices: []
       indices: 
       edges: []
@@ -259,19 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ghost_0: -517532301
-      ghost_1: -2088201825
-      ghost_10: 857185087
-      ghost_11: -1105706304
-      ghost_12: 1657253291
-      ghost_2: 317781891
-      ghost_3: -1515087439
-      ghost_4: 396564126
-      ghost_5: 524543520
-      ghost_6: 1249165808
-      ghost_7: -1045731490
-      ghost_8: -1349090017
-      ghost_9: 1593722098
+      hades_0: -1292872546
+      hades_1: 1380709774
+      hades_2: 463535910
+      hades_3: 1581667929
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
