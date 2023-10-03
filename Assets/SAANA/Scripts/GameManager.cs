@@ -16,10 +16,20 @@ public class GameManager : MonoBehaviour
 
     public AudioMixer mainMixer; //This is for Options menu's volume settings
 
+    public GameObject OptionsPanel;
+
+    public static bool mute = false;
+
+    public GameObject muteText;
+
     // Start is called before the first frame update
     void Start()
     {
         titleMusic.volume = 0.5f;
+        OptionsPanel = GameObject.Find("Optionspanel");
+        muteText = GameObject.Find("MuteText");
+        OptionsPanel.SetActive(false);
+        DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame
@@ -63,7 +73,7 @@ public class GameManager : MonoBehaviour
     public void SetVolume(float volume)
     {
         titleMusic.volume = volume * 0.02f;
-        mainMixer.SetFloat("volume", volume);
+        //mainMixer.SetFloat("volume", volume);
         print("volumen säätö");
 
     }
@@ -81,7 +91,21 @@ public class GameManager : MonoBehaviour
 
     public void Mute()
     {
-        
+      
+        mute = !mute;
+        print("bool");
+
+        if (mute)
+        {
+            muteText.GetComponent<TextMeshProUGUI>().text = "Mute Off";
+            titleMusic.volume = 0f;
+        }
+       
+        else if(!mute)
+        {
+            muteText.GetComponent<TextMeshProUGUI>().text = "Mute On";
+            titleMusic.volume = 0.5f;
+        }
     }
 
     //Options menu assets end here :) 
