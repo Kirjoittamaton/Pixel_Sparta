@@ -39,7 +39,7 @@ public class BossRoomTeleport : MonoBehaviour
     {
         if (other.gameObject.name == "Spartan_Final")
         {
-            ChangeLevel(5);
+            ChangeLevel(3);
         }
     }
 }
