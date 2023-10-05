@@ -97,13 +97,13 @@ public class GameManager : MonoBehaviour
 
         if (mute)
         {
-            muteText.GetComponent<TextMeshProUGUI>().text = "Mute Off";
+            muteText.GetComponent<TextMeshProUGUI>().text = "Mute On";
             titleMusic.volume = 0f;
         }
        
         else if(!mute)
         {
-            muteText.GetComponent<TextMeshProUGUI>().text = "Mute On";
+            muteText.GetComponent<TextMeshProUGUI>().text = "Mute Off";
             titleMusic.volume = 0.5f;
         }
     }
