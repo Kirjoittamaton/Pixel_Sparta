@@ -35,9 +35,9 @@ public class BossRoomTeleport : MonoBehaviour
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(levelNumber);
     }
-    public void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.gameObject.name == "Spartan_Final")
+        if (collision.gameObject.name == "Spartan_Final")
         {
             ChangeLevel(3);
         }
