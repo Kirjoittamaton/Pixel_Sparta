@@ -2001,8 +2001,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069307933}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.28, y: 3.19, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.27999878, y: 3.1900024, z: 0}
   m_LocalScale: {x: 3.9159248, y: 3.9159248, z: 3.9159248}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2857,7 +2857,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3868,8 +3868,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1718828044}
+  - component: {fileID: 1718828046}
   - component: {fileID: 1718828045}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: mainmenupic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3885,8 +3886,8 @@ Transform:
   m_GameObject: {fileID: 1718828043}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -399.9151, y: -223.94452, z: 0}
-  m_LocalScale: {x: 2.424721, y: 1.3640474, z: 1.038961}
+  m_LocalPosition: {x: -400.7234, y: -223.763, z: 0}
+  m_LocalScale: {x: 4.247501, y: 2.5321496, z: 1.038961}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1719701083}
@@ -3943,6 +3944,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!222 &1718828046
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718828043}
+  m_CullTransparentMesh: 1
 --- !u!1 &1719701079
 GameObject:
   m_ObjectHideFlags: 0
