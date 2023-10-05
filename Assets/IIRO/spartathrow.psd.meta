@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eae47502d37bbb540b686bc0d99ce5f8
+guid: 241be1fe20c5e944bb7201322ccc1268
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,22 +123,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spartathrow_1
+      name: spartathrow_0
       rect:
         serializedVersion: 2
-        x: 214
+        x: 38
         y: 66
-        width: 62
+        width: 60
         height: 61
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66be50b1c8d60e540a6ea2848147b344
-      internalID: -994577462
+      spriteID: a54aa3b04f00ba548a2b282e84084abf
+      internalID: 1976219270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spartathrow_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 66
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcd27aef3762a34d8daaa05810ee652
+      internalID: -151865369
       vertices: []
       indices: 
       edges: []
@@ -147,19 +168,19 @@ TextureImporter:
       name: spartathrow_2
       rect:
         serializedVersion: 2
-        x: 27
+        x: 61
         y: 0
         width: 111
         height: 61
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fee69c6cb54590a4283777b955303df9
-      internalID: -500860921
+      spriteID: 364e7ea298d5b8c4ea309e1b5c2ddec8
+      internalID: -1828658691
       vertices: []
       indices: 
       edges: []
@@ -168,19 +189,19 @@ TextureImporter:
       name: spartathrow_3
       rect:
         serializedVersion: 2
-        x: 214
+        x: 248
         y: 0
         width: 30
         height: 61
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 912278d6a012df74791eabe1be127a64
-      internalID: 1546529135
+      spriteID: 741b370412d1bf34b8d89cafe9e8ac1a
+      internalID: 2099823419
       vertices: []
       indices: 
       edges: []
@@ -196,10 +217,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spartathrow_0: -60765398
-      spartathrow_1: -994577462
-      spartathrow_2: -500860921
-      spartathrow_3: 1546529135
+      spartathrow_0: 1976219270
+      spartathrow_1: -151865369
+      spartathrow_2: -1828658691
+      spartathrow_3: 2099823419
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
