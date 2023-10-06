@@ -12,6 +12,7 @@ public class BossRoomTeleport : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         AudioSource audio = GetComponent<AudioSource>();
     }
 
@@ -23,7 +24,7 @@ public class BossRoomTeleport : MonoBehaviour
 
     public void ChangeLevel(int levelNumber)
     {
-
+        
         //fadeScreen.SetTrigger("ChangeLevel");
         StartCoroutine(NewLevel(levelNumber));
     }
@@ -39,7 +40,7 @@ public class BossRoomTeleport : MonoBehaviour
     {
         if (collision.gameObject.name == "Spartan_Final")
         {
-            ChangeLevel(3);
+            ChangeLevel(3);            
         }
     }
 }
