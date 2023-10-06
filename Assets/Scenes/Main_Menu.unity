@@ -4443,8 +4443,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Move: WASD or key buttons\n\nAttack: Left mouse or K\n\nGuard: Right Mouse
-    or Q\n\nJump: Space \n\nThrow: Shift or C \n\nPause: ESC"
+  m_text: "Move: WASD \n\nAttack: K\n\nGuard: S\n\nJump: Space \n\nThrow: Shift or
+    C \n\nPause: ESC"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4f372c329adda324b8e34cc0e26c4cff, type: 2}
   m_sharedMaterial: {fileID: 21509031896957856, guid: 4f372c329adda324b8e34cc0e26c4cff,
